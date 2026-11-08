@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axe Fight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="gameCanvas" width="900" height="500"></canvas>
+    <div class="controls">
+        Движение: <b>A / D</b> или <b>Стрелки влево/вправо</b> | Атака топором: <b>Левый клик мыши</b> | Прыжок: <b>W /Стрелка ввверх</b>
+    </div>
+
+    <!-- МЕСТО ДЛЯ ВАШИХ КАРТИНОК -->
+    <!-- Замените текст в src=" СЮДА_ССЫЛКУ " на свои изображения или файлы -->
+    <div style="display: none;">
+        <img id="customBg" src="fon.jpg" alt="Задний фон">
+        <img id="customHero" src="gg.png" alt="Герой">
+        <img id="customMonster" src="monstr.png" alt="Монстр">
+        <img id="customGift" src="" alt="Подарок с неба">
+        <img id="customAxe" src="topor.png" alt="Топор"> <!-- СЮДА ДОБАВЛЕН ТОПОР -->
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
