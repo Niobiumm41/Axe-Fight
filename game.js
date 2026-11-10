@@ -360,7 +360,7 @@ ctx.fillStyle = 'rgba(15, 23, 42, 0.9)'; ctx.fillRect(0, 0, canvas.width, canvas
 ctx.textAlign = 'center'; ctx.fillStyle = '#f59e0b'; ctx.font = 'bold 42px Arial';
 ctx.fillText("🎉 С ДНЕМ РОЖДЕНИЯ, " + HERO_NAME + "! 🎉", canvas.width / 2, canvas.height / 2 - 50);
 ctx.fillStyle = '#fff'; ctx.font = '22px Arial';
-ctx.fillText('Ты разнёс 37 монстров по всему полю своим верным топором!', canvas.width / 2, canvas.height / 2 + 10);
+ctx.fillText('Ты разнёс 37 монстров по всему полю своим виртуальным топором!', canvas.width / 2, canvas.height / 2 + 10);
 ctx.fillText('Пусть в реальной жизни любые препятствия рушатся так же легко!', canvas.width / 2, canvas.height / 2 + 50);
 ctx.fillStyle = '#94a3b8';
 ctx.font = '16px Arial'; ctx.fillText('Нажмите ПРОБЕЛ, чтобы начать заново', canvas.width / 2, canvas.height / 2 + 130);
